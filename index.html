@@ -17,29 +17,29 @@
       }
       td, th {
           border: 1px solid #770077;
-          background-image: url("cloudy.png");
           padding: 8px;
           text-align: justify;
       }
       .tableheader{
         width:746px;
-        padding:3px 8px 3px 2px;
+        align:left;
         color:#000000;
+        font-family:courier;
         background-color:#00FFFF;
         position:relative;
         z-index:1;
       }
         .bg1 {
-      width: 100%;
-      height: 100%;
-      background-repeat: repeat;
-      position:fixed;
-      top:0px;
-      left:0px;
-      background-image: url("bg-na.gif");
-      will-change: transform, filter;
-      z-index:-1;
-      mix-blend-mode: screen;
+          width: 100%;
+          height: 100%;
+          background-repeat: repeat;
+          position:fixed;
+          top:0px;
+          left:0px;
+          background-image: url("bg-na.gif");
+          will-change: transform, filter;
+          z-index:-1;
+          mix-blend-mode: screen;
         }
 
         .bg2 {
@@ -67,7 +67,7 @@
     100% {background-position: 0px -468px; filter: opacity(50%);}
     }
         .main {
-      margin:32px;
+            margin-left:600px;
             width: 756px;
             font-size: 16px;
             line-height: 18px;
@@ -80,9 +80,9 @@
         }
         #updates:hover {
           height:333px;
-                -webkit-transition: 0.3s cubic-bezier(0,0,0.02,1);
-                transition: 0.3s cubic-bezier(0,0,0.02,1);
-                position:absolute;
+          -webkit-transition: 0.3s cubic-bezier(0,0,0.02,1);
+          transition: 0.3s cubic-bezier(0,0,0.02,1);
+          position:absolute;
           border:2px solid #0000FF;
           z-index:100;
           margin-top:-88px;
@@ -90,9 +90,9 @@
         }
         #updates {
           height:38px;
-                -webkit-transition: 0.2s cubic-bezier(0,0,0.02,1);
-                transition: 0.2s cubic-bezier(0,0,0.02,1);
-                position:absolute;
+          -webkit-transition: 0.2s cubic-bezier(0,0,0.02,1);
+          transition: 0.2s cubic-bezier(0,0,0.02,1);
+          position:absolute;
           float:right; 
           border:2px solid #0000AA;
           margin-left:15px;
@@ -111,7 +111,7 @@
         <h1>THIS PAGE IS STILL <a href="https://windowsvistaiscool.github.io/uconst/">WIP</a></h1>
         <p>new updates box down below, <a href="https://github.com/windowsvistaiscool/windowsvistaiscool.github.io/discussions/">let me know what you think</a><br>scroll down too</p>
         <div class="update">
-          <iframe id="updates" height="128" src="updates.html" width="628"></iframe>
+          <iframe id="updates" height="126" src="updates.html" width="746px"></iframe>
         </div><br><br><br><br><br><br>
         <div class="tableheader">About Me</div>
         <table>
